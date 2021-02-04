@@ -1,6 +1,6 @@
 import styles from './style';
 import { palette }  from '../constants/Colors';
-import { HomeView } from '../views';
+import { HomeView, AccessHomeView } from '../views';
 import React, { useEffect, Component } from 'react';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 import { createStackNavigator, Header } from 'react-navigation-stack';
@@ -57,8 +57,15 @@ const BtAppStack = createDrawerNavigator(
     }
 );
 
+const AccessStack = createStackNavigator({
+  ac: AccessHomeView
+},{
+  headerMode: 'none'
+});
+
 const AppNavigator = createSwitchNavigator({
-    Main: BtAppStack
+  Access: AccessStack,
+  Main: BtAppStack
 },{
 
 });
