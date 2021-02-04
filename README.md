@@ -1,14 +1,14 @@
-STEPS TO BUILD AND RUN APP
+**STEPS TO BUILD AND RUN APP**
 
 - Open a Terminal on directory where you cloned the app
 - Install node modules dependencies with the command: yarn install.
 - After the last steps run the command to start a server: yarn start
 
 
-RUN ON ANDROID:
+**RUN ON ANDROID:**
 - Open a new terminal, go to directory app path and run the command: npx react-native run-android
 
-BUILD APK FOR ANDROID:
+**BUILD APK FOR ANDROID:**
 - Open a new terminal and runs the commands:
 
 mkdir -r android/app/src/main/assets
@@ -19,6 +19,5 @@ npx react-native bundle --platform android --dev false --entry-file index.js --b
 
 cd android && ./gradlew clean assembleDebug
 
-
-** APK FOR ANDROID IN THE FOLLOWING DIRECTORY
+**APK FOR ANDROID IN THE FOLLOWING DIRECTORY**
 dist/pp-banqi.apk
