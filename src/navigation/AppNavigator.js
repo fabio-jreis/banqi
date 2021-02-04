@@ -11,7 +11,7 @@ class HeaderHome extends Component {
   render() {
       return (
         <View style={styles.containerHeader}>           
-            <Text style={styles.textHeader} >TIMELIME</Text>
+            <Text style={styles.textHeader} >meuBANQi</Text>
         </View>
       );
   }

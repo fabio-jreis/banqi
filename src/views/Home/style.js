@@ -3,23 +3,16 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
     container: {
         flex: 1,
-        //alignContent: 'center',
-        //alignItems: 'center',
-        //justifyContent: 'center',
     },
     sc1: {
         flex: 0.4, 
-        //backgroundColor: 'red',
         alignContent: 'center',
         alignItems: 'center',
         justifyContent: 'center',        
     },
     sc2: {
         flex: 0.6, 
-        //backgroundColor: 'purple',  
-        //alignContent: 'center',
-        alignItems: 'center',
-        //justifyContent: 'center',      
+        alignItems: 'center',   
     },
     transactions: {
         flex: 1, 

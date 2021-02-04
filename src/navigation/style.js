@@ -88,11 +88,7 @@ export default StyleSheet.create({
         alignSelf: 'center',
     },
     containerHeader: {
-        flex: 1, 
-        marginBottom: 10, 
-        marginLeft: Platform.OS === 'ios' ? 0 : global.width > 400 ? 40 : 10,
-        marginRight: Platform.OS === 'ios' ? 0 : global.width > 400 ? 70 : 50,
-        marginTop: Platform.OS === 'ios' ? 0 : 5,
+        flex: 1,
     },
     toolbar: {
         position: 'absolute',
