@@ -24,3 +24,7 @@ dist/pp-banqi.apk
 
 **SCREENSHOTS**
 ![Image 1](https://www.linkpicture.com/q/Screenshot_20210204-001059_banqi.jpg)
+
+![Image 2](https://www.linkpicture.com/q/Screenshot_20210204-001106_banqi.jpg)
+
+![Image 3](https://www.linkpicture.com/q/Screenshot_20210204-001113_banqi.jpg)
