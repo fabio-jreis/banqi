@@ -23,4 +23,4 @@ cd android && ./gradlew clean assembleDebug
 dist/pp-banqi.apk
 
 **SCREENSHOTS**
-![Image 1](https://i.ibb.co/5kmh23x/Screenshot-20210204-001059-banqi.jpg)
+![Image 1](https://www.linkpicture.com/q/Screenshot_20210204-001059_banqi.jpg)
